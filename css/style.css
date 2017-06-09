@@ -1,0 +1,107 @@
+html, body{
+  height: 100%;
+}
+body{
+  font-family: arial;
+  color:black;
+  font-size: 1.5em;
+  background-color: #e8eaf6;
+
+  display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+  }
+
+header{
+  height: 110px; /*110 de altura en vez de 100 para mostrar el fondo correctamente*/
+  background-image: url("images/cabecera.JPG");
+  background-repeat: no-repeat;
+
+}
+
+.columna-izquierda{
+  width: 150px;
+  float:left;
+  }
+.columna-derecha{
+  width: 150px;
+  float:left;
+}
+.columna-central{
+  width: 430px;
+  float:left;
+}
+
+a:link{
+  color: white;
+}
+a:visited{
+  font-family: verdana;
+  color:blue;
+}
+a:hover{
+  color: red;
+}
+
+table a:link{
+  color:green;
+}
+table a:visited{
+  color:green;
+}
+table a:hover{
+  color: red;
+}
+.enl-nav a:visited{
+  color:white;
+}
+
+p {
+  margin-top: 0.5em;
+}
+
+li {
+  padding: 0.3em;
+  margin-bottom: 0.7em;
+}
+
+li:hover{
+  background-color: #B39DDB;
+}
+
+
+.marcos{
+  background-color: #e8eaf6;
+  height: 100%;
+}
+
+.container{
+  background-color: white;
+}
+
+.nav-wrapper {
+background-color: #ab47bc;
+}
+
+.slogan{
+  font-style: italic;
+  font-size: 30px;
+}
+
+.titulo, .slogan{
+  padding: 20px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }

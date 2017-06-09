@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="http://icon-icons.com/icons2/317/PNG/512/book-bookmark-icon_34486.png">
+
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+
+	<title>Login Diario ULL</title>
+</head>
+<body>
+	
+<header>
+<div class="container">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#email_login" class="brand-logo left">Diario ULL</a>
+				<ul id="nav-mobile" class="right ">
+					<li class="enl-nav"><a href="">Soporte</a></li>
+				</ul>
+			</div>
+		</nav>
+		</div>
+</header>
+<main><div class="container">
+		<div class="row">
+			<div class="col l5 s11 offset-l1 offset-s1">
+				<form class="col s12" method="POST" action="autentica.php">
+					<div class="row">
+						<div class="row">
+							<div class="row input-field col s6">
+								<em class="material-icons prefix">email</em>
+								<input id="icon_prefix" tabindex="1" placeholder="Email de login" type="text" class="validate" name="email" title="email" aria-required=”true”>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s6">
+								<em class="material-icons prefix">lock</em>
+								<input id="icon_prefix" tabindex="1" placeholder="Contraseña de login" type="password" class="validate" name="password" title="password" aria-required=”true”>
+
+							</div>
+						</div>
+						<div class="row">
+							<button class="row btn waves-effect waves-light" tabindex="1" type="submit" name="action">Login
+								<em class="material-icons right">send</em>
+							</button>
+						</div>
+					</div>
+
+				</form>
+
+			</div>
+
+
+			<div class="col l5 s11 offset-s1 offset-l1">
+				<form class="col s12" method="POST" action="registro.php">
+					<div class="row">
+						<div class="row">
+							<div class="input-field col s6">
+								<em class="material-icons prefix">account_circle</em>
+								<input id="icon_prefix" tabindex="1" placeholder="Nombre de registro" type="text" class="validate" name="usuario" title="usuario" aria-required=”true”>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s6">
+								<em class="material-icons prefix">email</em>
+								<input id="icon_prefix" tabindex="1" placeholder="Email de registro" type="text" class="validate" name="email" title="email" aria-required=”true”>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s6">
+								<em class="material-icons prefix">lock</em>
+								<input id="icon_prefix" tabindex="1" placeholder="Contraseña de registro" type="password" class="validate" name="password" title="password" aria-required=”true”>
+
+							</div>
+						</div>
+						<div class="row">
+							<button class="btn waves-effect waves-light" type="submit" tabindex="1" name="action">Registrarse
+								<em class="material-icons right">send</em>
+							</button>
+						</div>
+					</div>
+
+				</form>
+
+			</div>
+
+		</div></div>
+</main>
+
+		<footer class="page-footer grey darken-3">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="purple-text titulo">Diario ULL</h5>
+                <p class="grey-text text-lighten-4 slogan" > "EL sitio donde tendrás tu día a día"</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <ul>
+                  <li><a class="purple-text lighten-2" href="https://www.ull.es/">Universidad de La Laguna</a></li>
+                  <li><a class="purple-text lighten-2" href="https://campusvirtual.ull.es/">Campus Virtual</a></li>
+                  <li><a class="white-text lighten-2" href="http://materializecss.com/">Powered by materialize</a></li>
+                </ul>
+              </div>
+            </div>
+          <div class="footer-copyright" >
+            <h6 class="center-align">© 2017 Copyright Text</h6>
+          </div>
+        </footer>
+
+	</div>
+</body>
+</html>

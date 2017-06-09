@@ -1,0 +1,101 @@
+html, body {
+  background: #fafafa;
+  height: 100%;
+}
+
+header{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 110px; /*110 de altura en vez de 100 para mostrar el fondo correctamente*/
+  background-image: url("../images/cabecera.JPG") !important;
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 95% !important;
+  background-color: white ;
+}
+
+.calendario{
+  margin-top: 20px;
+  overflow: auto ;
+  text-align: center;
+}
+
+.nav-wrapper {
+  width: 105%;
+  background-color: #ab47bc;
+  margin-left: -2.5%;
+}
+
+
+.asignaturas{
+  font-size: 125%;
+  padding-left: 20px;
+  height:  100% ;
+  background-color: #e1bee7;
+}
+
+.Mensaje{
+  font-size: 300%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.detalles{
+  margin-right: 0px;
+  height:  100% ;
+  background-color: #e1bee7;
+}
+
+.columnacompleta{
+  margin-top: 20px;
+}
+
+
+
+#contenido{
+  background-color: #f3e5f5;
+  height: 100%;
+}
+
+.contenidos{
+height: 60%;
+overflow-y: scroll;
+}
+
+.mensajes{
+  background: white;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border:  2px solid black;
+  border-radius: 25px;
+}
+
+.usuariocss{
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.page-footer{
+  padding-left: 15px;
+  margin-top: -2.1%;
+  margin-left: -2.5%;
+  width: 105%;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  font-family: verdana;
+  color:blue;
+}
+a:hover{
+  color: red;
+}
+
+.enl-nav a:visited{
+  color:white;
+}
